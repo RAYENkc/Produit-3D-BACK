@@ -1,0 +1,46 @@
+{
+  "name": "back-node",
+  "version": "1.0.0",
+  "description": "back node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NassimMahmoudi/Back-nodeApi.git"
+  },
+  "author": "Nassim Mahmoudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NassimMahmoudi/Back-nodeApi/issues"
+  },
+  "homepage": "https://github.com/NassimMahmoudi/Back-nodeApi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.2.6",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^6.7.3",
+    "nodemailer-plugin-inline-base64": "^2.1.1",
+    "phantom-html-to-pdf": "^0.6.1",
+    "randomstring": "^1.2.2",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "nodemon": "^2.0.15",
+    "phantomjs-prebuilt": "^2.1.13"
+  }
+}
